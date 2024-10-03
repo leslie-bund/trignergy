@@ -14,7 +14,6 @@ import { EmailSubscribeComponent } from '../email-subscribe/email-subscribe.comp
 export class LayoutComponent implements OnInit {
 
   constructor(
-    private route: ActivatedRoute
   ){}
 
   hero!: boolean;
@@ -22,11 +21,6 @@ export class LayoutComponent implements OnInit {
   emailSub!: boolean;
 
   ngOnInit() {
-    this.route.data.subscribe(data => {
-      console.log(data);
-      this.hero = data['hero'];
-      this.heroTitle = data['heroTitle'];
-      this.emailSub = data['emailSub'];
-    });
+    
   }
 }
