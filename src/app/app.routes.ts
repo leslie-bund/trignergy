@@ -16,28 +16,28 @@ export const routes: Routes = [
       {
         path: '',
         component: HomeComponent,
-        data: { hero: true, heroTitle: 'Delivering Impeccable Services Nationwide',
+        data: { hero: true, heroTitle: ['Delivering Impeccable Services ','Nationwide'],
           emailSub: true
         }
       },
       {
         path: 'corporate',
         component: CorporateStatementComponent,
-        data: { hero: true, heroTitle: 'Our Corporate Statement',
+        data: { hero: true, heroTitle: ['Our Corporate ','Statement'],
           emailSub: true
         }
       },
       {
         path: 'sustain',
         component: SustainabilityComponent,
-        data: { hero: true, heroTitle: 'Our Sustainability',
+        data: { hero: true, heroTitle: ['Our ','Sustainability'],
           emailSub: true
         }
       },
       {
         path: 'policy',
         component: PolicyStatementComponent,
-        data: { hero: true, heroTitle: 'Our Policy Statement',
+        data: { hero: true, heroTitle: ['Our Policy ','Statement'],
           emailSub: true
         }
       },
@@ -49,7 +49,7 @@ export const routes: Routes = [
       {
         path: 'logistics',
         component: LogisticsComponent,
-        data: { hero: true, heroTitle: 'Our Logistics',
+        data: { hero: true, heroTitle: ['Our ','Logistics'],
           emailSub: true
         }
       },
